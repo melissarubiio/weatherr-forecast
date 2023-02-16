@@ -1,0 +1,36 @@
+.title{
+    font-size: 70px;
+    text-align: center;
+}
+
+.citystyle{
+    font-size: 20px;
+    background-color: rgba(128, 128, 128, 0.178);
+    text-align: center;
+}
+
+.forecast {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  
+  #todaysWeather {
+    flex: 1 1 300px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: 600px;
+  }
+  
+  #forecast {
+    flex: 1 1 400px;
+    text-align: center;
+  }
+  
+  #fiveDayForecast {
+    flex: 1 1 300px;
+    margin-left: 340px;
+  }
+  
